@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<timetable>
+
+  <day week="Пятница">
+
+    <pair>
+      <desc>Программирование C#</desc>
+      <time>17:10 - 18:30</time>
+      <techer>Ланин В.В.</techer>
+      <classroom>аудитория 510</classroom>
+    </pair>
+    <pair>
+      <desc>Программирование C#</desc>
+      <time>18:40 - 20:00</time>
+      <techer>Ланин В.В.</techer>
+      <classroom>аудитория 510</classroom>
+    </pair>
+    <pair>
+      <desc>Базы данных</desc>
+        <time>21:10 - 21:30</time>
+      <techer>Лядова Л.Н.</techer>
+      <classroom>аудитория 510</classroom>
+    </pair>
+    
+  </day>
+  <day week="Суббота">
+
+    <pair>
+      <desc>Распознание образов</desc>
+      <time>9:10 - 10:30</time>
+      <techer>Замятина Е.Б.</techer>
+      <classroom>аудитория 305</classroom>
+    </pair>
+    <pair>
+      <desc>Конструирование программного обеспечения</desc>
+      <time>10:40 - 12:00</time>
+      <techer>Ланин В.В.</techer>
+      <classroom>аудитория 310</classroom>
+    </pair>
+    <pair>
+      <desc>Конструирование программного обеспечения</desc>
+      <time>12:40 - 14:00</time>
+      <techer>Ланин В.В.</techer>
+      <classroom>аудитория 310</classroom>
+    </pair>
+    <pair>
+      <desc>Майнор</desc>
+      <time>14:10 - 15:30</time>
+      <techer>Савейко А.Н.</techer>
+      <classroom>аудитория 307</classroom>
+    </pair>
+  </day>
+  
+</timetable>

@@ -1,0 +1,41 @@
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html" indent="yes" omit-xml-declaration="yes" />
+
+  <!--<xsl:template match="/">
+    <xsl:apply-templates select="timetable"></xsl:apply-templates>
+  </xsl:template>-->
+    
+  <xsl:template match="day">
+    <table border="1" bordercolor="blue" width="70%" cellspacing="5">
+      <tr>
+        <th>
+          <xsl:value-of select="@week"/>
+        </th>        
+      </tr>
+      <br/>
+      <tr>
+        
+          <xsl:apply-templates select="pair"></xsl:apply-templates>
+        
+      </tr>  
+    </table>
+  </xsl:template>
+  
+  <xsl:template match="pair">
+    <tr>
+      <td>
+        <xsl:value-of select="desc"/>
+        <br/>
+        <xsl:value-of select="techer"/>
+        <!--<xsl:text> &mdash; </xsl:text>-->
+        <xsl:value-of select="time"/>
+      </td>
+      
+    </tr>
+    
+    
+  </xsl:template>
+
+    
+</xsl:stylesheet>
