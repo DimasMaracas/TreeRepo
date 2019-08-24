@@ -25,7 +25,7 @@ namespace Queue
                 Q.Add(questions);
             }                        
             
-
+            //зиспользвание LINQ
             var x = Q.Where(n => n.difficty > 3 && n.difficty < 5).ElementAt(1);
             try
             {
