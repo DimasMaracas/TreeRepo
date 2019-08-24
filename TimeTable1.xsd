@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <!--<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/1999/XSL/Transform">-->
+    <xs:element name="timetable">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" name="day">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="pair">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="desc" type="xs:string" />
+                      <xs:element name="time" type="xs:string" />
+                      <xs:element name="techer" type="xs:string" />
+                      <xs:element name="classroom" type="xs:string" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+              <xs:attribute name="week" type="xs:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+  <!--</xs:schema>-->
+</xsl:stylesheet>
